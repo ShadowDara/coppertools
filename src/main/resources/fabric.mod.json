@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "coppertools",
+  "version": "${version}",
+  "name": "coppertools",
+  "description": "a mod which adds copper tools",
+  "authors": [
+    "shadowdara"
+  ],
+  "contact": {
+    "website": "https://shadowdara.github.io",
+    "repo": "https://github.com/shadowdara/coppertools"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/coppertools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "de.shadowdara.coppertools.client.CoppertoolsClient"
+    ],
+    "main": [
+      "de.shadowdara.coppertools.Coppertools"
+    ]
+  },
+  "mixins": [
+    "coppertools.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
