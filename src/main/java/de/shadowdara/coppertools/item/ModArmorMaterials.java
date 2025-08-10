@@ -8,6 +8,7 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
+// Building the Custom Copper Armor stats
 public enum ModArmorMaterials implements ArmorMaterial {
     COPPER("copper", 12, new int[] {2, 5, 4, 1},
             19, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN,
