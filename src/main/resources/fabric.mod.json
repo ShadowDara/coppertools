@@ -3,7 +3,7 @@
   "id": "coppertools",
   "version": "${version}",
   "name": "coppertools",
-  "description": "a mod which adds copper tools",
+  "description": "This is a mod which adds copper tools",
   "authors": [
     "shadowdara"
   ],
@@ -11,15 +11,18 @@
     "website": "https://shadowdara.github.io",
     "repo": "https://github.com/shadowdara/coppertools"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "icon": "assets/coppertools/icon.png",
   "environment": "*",
   "entrypoints": {
     "client": [
-      "de.shadowdara.coppertools.client.CoppertoolsClient"
+      "de.shadowdara.coppertools.CoppertoolsClient"
     ],
     "main": [
       "de.shadowdara.coppertools.Coppertools"
+    ],
+    "fabric-datagen": [
+      "de.shadowdara.coppertools.CoppertoolsDataGenerator"
     ]
   },
   "mixins": [
