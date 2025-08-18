@@ -2,5 +2,11 @@
   "item.coppertools.copper_helmet": "Copper Helmet",
   "item.coppertools.copper_chestplate": "Copper Chestplate",
   "item.coppertools.copper_leggings": "Copper Leggings",
-  "item.coppertools.copper_boots": "Copper Boots"
+  "item.coppertools.copper_boots": "Copper Boots",
+
+  "item.coppertools.copper_sword": "Copper Sword",
+  "item.coppertools.copper_pickaxe": "Copper Pickaxe",
+  "item.coppertools.copper_axe": "Copper Axe",
+  "item.coppertools.copper_shovel": "Copper Shovel",
+  "item.coppertools.copper_hoe": "Copper Hoe"
 }
