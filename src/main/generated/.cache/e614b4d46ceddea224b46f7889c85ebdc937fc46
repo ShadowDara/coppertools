@@ -1,9 +1,9 @@
-// 1.20.1	2025-09-08T17:57:18.4732837	de.shadowdara.coppertools/Recipes
+// 1.20.1	2025-09-08T18:08:31.4377027	de.shadowdara.coppertools/Recipes
 09a462b81412bbb80169627016f6da3458fd56c4 data\coppertools\advancements\recipes\combat\copper_axe.json
 f0f06ba85c7224fbd087a259f2d925a833d6f94f data\coppertools\recipes\copper_sword.json
 4c1fc19c2ccf16a7331b07f843fad1712478077d data\coppertools\recipes\copper_boots.json
-30adb72f8971f04359607d74a91eadc4ffeedbad data\coppertools\recipes\copper_leggings.json
 54822f4808fbfd0754da82cceadbfcefcf9b8b17 data\coppertools\recipes\copper_chestplate.json
+30adb72f8971f04359607d74a91eadc4ffeedbad data\coppertools\recipes\copper_leggings.json
 91ccb05be204b4d869090110512e95fe7ccf0819 data\coppertools\recipes\copper_axe.json
 637aba7c6921a3fb70a06a13613ddf124360ef92 data\coppertools\recipes\copper_hoe.json
 e81f4a7977948638a0af887e094527f59120b0ed data\coppertools\advancements\recipes\combat\copper_helmet.json
