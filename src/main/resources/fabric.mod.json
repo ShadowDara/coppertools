@@ -1,36 +1,40 @@
 {
-  "schemaVersion": 1,
-  "id": "coppertools",
-  "version": "${version}",
-  "name": "coppertools",
-  "description": "This is a mod which adds copper tools",
-  "authors": [
-    "shadowdara"
-  ],
-  "contact": {
-    "website": "https://shadowdara.github.io",
-    "repo": "https://github.com/shadowdara/coppertools"
-  },
-  "license": "MIT",
-  "icon": "assets/coppertools/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "client": [
-      "de.shadowdara.coppertools.CoppertoolsClient"
-    ],
-    "main": [
-      "de.shadowdara.coppertools.Coppertools"
-    ],
-    "fabric-datagen": [
-      "de.shadowdara.coppertools.CoppertoolsDataGenerator"
-    ]
-  },
-  "mixins": [
-    "coppertools.mixins.json"
-  ],
-  "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric": "*",
-    "minecraft": "${minecraft_version}"
-  }
+	"schemaVersion": 1,
+	"id": "coppertools",
+	"version": "${version}",
+	"name": "de.shadowdara.coppertools",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/coppertools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+      "client": [
+        "de.shadowdara.coppertools.CoppertoolsClient"
+      ],
+		"main": [
+			"de.shadowdara.coppertools.Coppertools"
+		],
+		"fabric-datagen": [
+			"de.shadowdara.coppertools.CoppertoolsDataGenerator"
+		]
+	},
+	"mixins": [
+		"coppertools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
 }
