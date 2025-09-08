@@ -2,6 +2,7 @@ package de.shadowdara.coppertools;
 
 import de.shadowdara.coppertools.datagen.ModItemTagProvider;
 import de.shadowdara.coppertools.datagen.ModModelsProvider;
+import de.shadowdara.coppertools.datagen.ModRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 
@@ -12,5 +13,6 @@ public class CoppertoolsDataGenerator implements DataGeneratorEntrypoint {
 
         pack.addProvider(ModItemTagProvider::new);
         pack.addProvider(ModModelsProvider::new);
+        pack.addProvider(ModRecipeProvider::new);
     }
 }
