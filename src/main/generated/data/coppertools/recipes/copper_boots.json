@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "S S",
+    "S S"
+  ],
+  "result": {
+    "item": "coppertools:copper_boots"
+  },
+  "show_notification": true
+}

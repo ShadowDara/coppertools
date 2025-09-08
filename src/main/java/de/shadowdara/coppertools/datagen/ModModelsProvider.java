@@ -4,6 +4,7 @@ import de.shadowdara.coppertools.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
+import net.minecraft.data.client.Models;
 import net.minecraft.item.ArmorItem;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 
@@ -24,5 +25,11 @@ public class ModModelsProvider extends FabricModelProvider {
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_CHESTPLATE));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_LEGGINGS));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.COPPER_BOOTS));
+
+        itemModelGenerator.register(ModItems.COPPER_SWORD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_PICKAXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_AXE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_SHOVEL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COPPER_HOE, Models.GENERATED);
     }
 }
